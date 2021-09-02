@@ -1,6 +1,7 @@
 public class TestFizzBuzz {
     public static void main(String[] args){
         FizzBuzz tester = new FizzBuzz();
+        tester.count();
         System.out.println(tester.fizzBuzz(9));     // Fizz
         System.out.println(tester.fizzBuzz(10));    // Buzz
         System.out.println(tester.fizzBuzz(15));    // FizzBuzz
