@@ -30,7 +30,7 @@ public class PuzzleJava {
     // }
     public ArrayList<Character> allAlphabet() {
         ArrayList<Character> alphabet = new ArrayList<Character>();
-        for (char ch = 'a'; ch <= 'z'; ch++) {
+        for (char ch = 'a'; ch <= 'z'; ++ch) {
             alphabet.add(ch);
         }
         return alphabet;
