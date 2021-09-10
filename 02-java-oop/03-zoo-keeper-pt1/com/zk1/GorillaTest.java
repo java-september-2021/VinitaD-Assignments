@@ -1,3 +1,5 @@
+package com.zk1;
+
 public class GorillaTest {
     public static void main(String[] args) {
         Gorilla gorilla = new Gorilla(30);

@@ -1,7 +1,9 @@
 public class Project {
+    //attribute/property/member variables
     private String name;
     private String description;
     private double cost;
+    //method
     public String elevatorPitch(){
         return (name + " ("+ cost + ") " + description);
     }
@@ -25,7 +27,7 @@ public class Project {
     public void setCost(double cost) {
         this.cost = cost;
     }
-
+    //constructors and overloading
     public Project(){
     }
     public Project(String name) {

@@ -13,5 +13,12 @@ class ProjectTest {
         java.setCost(13);
         System.out.println(java.elevatorPitch());
         
+        Portfolio collection = new Portfolio();
+        collection.setProject(java);
+        collection.setProject(javascript);
+        collection.setProject(python);
+        collection.showPortfolio();
+        collection.showPortfolio();
+       
     }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01-JavaFun" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02-alfred-bot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03-fizzbuzz" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05-basics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-puzzling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07-map-of-the-hashmatique" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-lists-of-exceptions" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
