@@ -58,7 +58,9 @@ public class HomeControl {
 		session.setAttribute("count", 0);
 		return "redirect:/counter2";
 	}
-	}
+	
+	
+}
 	
 	
 
