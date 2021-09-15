@@ -12,7 +12,8 @@
 </head>
 <body>
 <script>timeSelect()</script>
-<P class= "time"><c:out value="${date}"/>
-</P>
+<P class= "time"><c:out value="${date}"/></P>
+<p class= "time"><fmt:formatDate pattern = "hh:mm a" value = "${date}" /></p>
+
 </body>
 </html>

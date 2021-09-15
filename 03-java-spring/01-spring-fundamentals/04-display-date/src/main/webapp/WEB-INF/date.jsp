@@ -14,5 +14,6 @@
 <body>
 <script>dateSelect()</script>
 <P class= "date"><fmt:formatDate pattern = "yyyy-MM-dd" value = "${date}" /></P>
+<P class= "date"><fmt:formatDate pattern = "EEEE, 'The' d 'of' MMMM, Y"  value = "${date}" /></P>
 </body>
 </html>
