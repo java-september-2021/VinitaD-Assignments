@@ -32,6 +32,9 @@ public class Calculator {
             results = operandOne - operandTwo;
         }
     }
+    public void performOperation(Object num){
+        if ()
+    }
     public double getResult() {
         return this.results;
     }
