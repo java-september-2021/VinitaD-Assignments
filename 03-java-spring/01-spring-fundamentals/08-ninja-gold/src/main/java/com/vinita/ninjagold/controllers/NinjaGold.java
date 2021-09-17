@@ -55,7 +55,11 @@ public class NinjaGold {
 		else if(building.equals("casino")) {
 			System.out.println("hello");
 			goldThisTurn = r.nextInt((50 + 50) + 1) -50;;
-			messages.add(String.format("You entered a %s and earned %d gold, %s" , building ,goldThisTurn, formatter.format(now)));
+			if(goldThisTurn < 0) {
+				messages.add(String.format("You Entered a %s and lost %d gold.ouch..., %s", building, goldThisTurn, formatter.format(now)));
+			}else {
+				messages.add(String.format("You entered a %s and earned %d gold, %s" , building ,goldThisTurn, formatter.format(now)));
+			}
 		} else {
 		return "redirect:/";
 	}

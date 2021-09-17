@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-java-fundamentals/01-java-fundamentals.iml" filepath="$PROJECT_DIR$/01-java-fundamentals/01-java-fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-java-oop/02-java-oop.iml" filepath="$PROJECT_DIR$/02-java-oop/02-java-oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VinitaD-Assignments.iml" filepath="$PROJECT_DIR$/.idea/VinitaD-Assignments.iml" />
+    </modules>
+  </component>
+</project>
