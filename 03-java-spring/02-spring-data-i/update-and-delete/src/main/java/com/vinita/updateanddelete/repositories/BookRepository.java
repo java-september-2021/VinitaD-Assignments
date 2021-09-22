@@ -1,0 +1,13 @@
+package com.vinita.updateanddelete.repositories;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.vinita.updateanddelete.models.Book;
+
+@Repository
+public interface BookRepository extends CrudRepository<Book, Long>{
+	List<Book> findAll();
+}
