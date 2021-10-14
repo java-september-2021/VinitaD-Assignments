@@ -26,6 +26,7 @@
     </p>    
     <input type="submit" value="Search Artists"/>
 </form:form>  --%> 
+<p>${errors}</p>
 <form action ="/search">
 	<input type="text" placeholder="Search" name="artist">
     <button type="submit">Search Artist</button>

@@ -21,19 +21,19 @@
 <hr>
 <h3>Add More products to this Category</h3>
 <form action="/catProduct/${category.id}" method="POST">
-<div class = "form-group row">
-    
-<label for="product">Add Product</label>     
-<select name="product">
-  <c:forEach items="${ notInProduct }" var="p">
-      <option value=${ p.id }>${ p.name }</option>
-  </c:forEach>
-</select>
-   
- </div>
-    
-   <input type="submit" value="Submit"/>
+	<div class = "form-group row">
+		<label for="product">Add Product</label>     
+		<select name="product">
+		  	<c:forEach items="${ notInProduct }" var="p">
+		      	<option value=${ p.id }>${ p.name }</option>
+		  	</c:forEach>
+		</select>
+	</div>
+	<input type="submit" value="Submit"/>
 </form>  
+	    
+   
 </div>
 </body>
 </html>
+    
